@@ -1,4 +1,4 @@
-# Document Reader SDK: MRZRFID Core Swift Package
+# Document Reader SDK: BarcodeMRZRFID Core Swift Package
 
 Regula Document Reader SDK is designed for identity verification services that specialize in reading and digital verification of passports, ID cards, driver's licenses, visas, and other ID documents.
 
