@@ -3,13 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "BarcodeMRZRFID",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "BarcodeMRZRFID",
             targets: ["BarcodeMRZRFID"]),
     ],
     targets: [
-        .binaryTarget(name: "BarcodeMRZRFID", url: "https://pods.regulaforensics.com/BarcodeMRZRFID/7.7.12002/DocumentReaderCore_barcodemrzrfid_7.7.12002.zip", checksum: "88c9ffd67206845b7734025b127211b2bffde5c6702667e40905654398131c8c"),
+        .binaryTarget(name: "BarcodeMRZRFID", url: "https://pods.regulaforensics.com/BarcodeMRZRFID/8.1.12879/DocumentReaderCore_barcodemrzrfid_8.1.12879.zip", checksum: "2021bf1bafc3758e8804d395a521971eada2b6b9f887cbb433c2693f5375cb0d"),
     ]
 )
